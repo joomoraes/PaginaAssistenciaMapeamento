@@ -1,0 +1,13 @@
+/* DIV DOS ACESSOS LINKS */
+
+.acessos {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+/* ACESSOS LINKS */ 
+
+button {
+    position: relative;
+}

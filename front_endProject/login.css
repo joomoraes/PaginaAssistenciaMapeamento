@@ -1,0 +1,63 @@
+/* DIV STYLE */
+
+.login {
+    width: 250px;
+    height: 250px;
+    border: solid black 2px;
+    position: absolute;
+    left: 35%;
+    top: 150px;
+    border-radius: 35px;
+    background-image: url("images/verde_div_login.jpg");
+    
+} .login:hover {
+  border: 2px solid #BFBFBF;
+  box-shadow: 10px 10px 5px green;
+}
+
+/* INPUT STYLE */
+
+input {
+    position: relative;
+    padding:15px; 
+    border:2px solid black; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    top: 60px;
+    left: 8%;
+    margin: 5px;
+}
+
+input:focus {
+    border-color:#333;
+}
+input[type=submit] {
+    padding:10px 30px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 5px; 
+    position: relative;
+    left: 28%;
+    border: 2px solid black;
+} 
+
+input[type=submit]:hover {
+    background-color: green;
+    font-family: 'Anton', sans-serif;
+}
+
+/* FONT STYLE */
+
+h2 {
+    position: absolute;
+    left: 13%;
+    top: -20px;
+}
+
+h2.ifmt {
+    left: 90px;
+    top: 1px;
+    color: green;
+}
